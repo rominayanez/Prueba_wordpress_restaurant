@@ -1,0 +1,463 @@
+/* Font */
+@font-face {
+    font-family: Proxima Nova;
+    src: url('assets\fonts\Mark Simonson - Proxima Nova Alt Black-webfont.ttf');
+    font-weight: normal;
+}
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+/* Header */
+.snip1543 {
+  background-color: #fff;
+  color: #ffffff;
+  font-family:'Proxima Nova';
+  font-size: 32px;
+  margin: 10px;
+  max-width: 100%;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.snip1543 *,
+.snip1543 *:before,
+.snip1543 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1543:before,
+.snip1543:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #cc1924;
+  opacity: 0.5;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543:before {
+  -webkit-transform: skew(30deg) translateX(-80%);
+  transform: skew(30deg) translateX(-80%);
+}
+
+.snip1543:after {
+  -webkit-transform: skew(-30deg) translateX(-70%);
+  transform: skew(-30deg) translateX(-70%);
+}
+
+.snip1543 figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 25px 40% 25px 20px;
+}
+
+.snip1543 figcaption:before,
+.snip1543 figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #cc1924;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.snip1543 figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-100%);
+  transform: skew(30deg) translateX(-100%);
+}
+
+.snip1543 figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-90%);
+  transform: skew(-30deg) translateX(-90%);
+}
+
+.snip1543 h3,
+.snip1543 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+  font-family: 'proxima nova';
+}
+
+.snip1543 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family: 'proxima nova';
+}
+
+.snip1543 p {
+  font-size: 0.9em;
+}
+
+.snip1543 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1543:hover h3,
+.snip1543.hover h3,
+.snip1543:hover p,
+.snip1543.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.snip1543:hover:before,
+.snip1543.hover:before {
+  -webkit-transform: skew(30deg) translateX(-20%);
+  transform: skew(30deg) translateX(-20%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.snip1543:hover:after,
+.snip1543.hover:after {
+  -webkit-transform: skew(-30deg) translateX(-10%);
+  transform: skew(-30deg) translateX(-10%);
+}
+
+.snip1543:hover figcaption:before,
+.snip1543.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-40%);
+  transform: skew(30deg) translateX(-40%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1543:hover figcaption:after,
+.snip1543.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-30%);
+  transform: skew(-30deg) translateX(-30%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* fin header */
+
+/* section carta */
+
+.carta{
+    background-color: #333333;
+    color: #ffffff;
+}
+.menu{
+    padding: 40px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+}
+
+/* Navbar */
+.navbar-inverse {
+    background-color: #333333;
+    margin-bottom: 0;
+    height: 100px;
+}
+
+.navbar__logo {
+    max-width: 200px;
+    padding-top: 20px;
+}
+
+.navbar-nav>li>a {
+    padding: 40px;
+    font-size: 18px;
+
+}
+.navbar-nav {
+    padding-top: 45px;
+}
+
+.navbar__navigation {
+    margin: 25px;
+}
+
+/* snip1556*/
+.snip1556 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #000000;
+  display: inline-block;
+  font-family: 'Oswald', Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  box-shadow: none !important;
+  padding: 30px 40px 0 0;
+}
+.snip1556 *,
+.snip1556 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.snip1556 img {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+}
+
+.snip1556 figcaption {
+  background-color: #333333;
+  bottom: 30px;
+  left: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.snip1556 h3 {
+  font-size: 16px;
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  color: #fff;
+  left: 100%;
+  letter-spacing: 1px;
+  margin: 12px 0;
+  opacity: 0.8;
+  padding: 6px 40px 0 0;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  white-space: nowrap;
+}
+
+.snip1556 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1556:hover figcaption,
+.snip1556.hover figcaption {
+  background-color: #c0392b;
+}
+/* fin snip1556*/
+
+/* Carta*/
+.carta_item{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.foto_carta{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.name{
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Proxima Nova';
+}
+.description{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Proxima Nova';
+}
+.price{
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Proxima Nova';
+
+}
+
+
+/*local*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+.snip1461 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+}
+.snip1461 *,
+.snip1461 *:before,
+.snip1461 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.snip1461 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+.snip1461 figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: 35px;
+  padding: 5px 10px;
+}
+.snip1461 h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.snip1461 h2:before,
+.snip1461 h2:after {
+  height: 10px;
+  width: 200px;
+  position: absolute;
+  content: '';
+  top: 50%;
+  -webkit-transform: scaleX(0) translateY(-50%);
+  transform: scaleX(0) translateY(-50%);
+  -webkit-transform-origin: 0% 0;
+  -ms-transform-origin: 0% 0;
+  transform-origin: 0% 0;
+  background-color: #ffffff;
+}
+.snip1461 h2:before {
+  right: 100%;
+}
+.snip1461 h2:after {
+  left: 100%;
+}
+.snip1461 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1461:hover:after,
+.snip1461.hover:after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.snip1461:hover img,
+.snip1461.hover img {
+  zoom: 1;
+  filter: alpha(opacity=40);
+  -webkit-opacity: 0.4;
+  opacity: 0.4;
+}
+.snip1461:hover h2,
+.snip1461.hover h2 {
+  color: #ffffff;
+}
+.snip1461:hover h2:before,
+.snip1461.hover h2:before,
+.snip1461:hover h2:after,
+.snip1461.hover h2:after {
+  -webkit-transform: scaleX(1) translateY(-50%);
+  transform: scaleX(1) translateY(-50%);
+}
+.snip1461:hover h2:after,
+.snip1461.hover h2:after {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+
+/*fin */
+.pdg50{
+    padding-top: 50px;
+}
+
+.formulario{
+    /*padding: 50px 0;*/
+    /*background-color: #cc1924;*/
+    color: white;
+    font-family: 'proxima nova';
+}
+.red{
+    background-color: #cc1924;
+
+}
+.white{
+    color: white;
+}
+/* footer */
+
+.logo_footer{
+    max-width: 200px;
+    padding-top: 20px;
+}
+.footer_h4{
+    color: #707070;
+    font-weight: bold;
+    font-family: 'proxima nova';
+}
+
+#contacto{
+    background-color: #333333;
+    color: white;
+    font-family: 'proxima nova';
+
+
+}
+
+.siguenos{
+    color: white;
+}
+
+.reserva{
+    padding: 10px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+}
+#reservas{
+    padding-bottom: 20px;
+}
+.widgettitle{
+    font-size: 16px;
+}
+label{
+    font-family: 'proxima nova';
+}
